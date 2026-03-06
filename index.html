@@ -1,84 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kunaal Dhanka | Graphic Designer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Montserrat', sans-serif; background:#0d0d0d; }
-    .grid-bg {
-      background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
-                        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
-      background-size: 40px 40px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kabir | Graphic Designer</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body{
+font-family:'Montserrat',sans-serif;
+background:#0f0f0f;
+}
+
+.project-card{
+aspect-ratio:1/1;
+overflow:hidden;
+border-radius:20px;
+}
+
+.project-card img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:0.5s;
+}
+
+.project-card:hover img{
+transform:scale(1.08);
+}
+
+.skill{
+padding:12px 20px;
+border:1px solid rgba(255,255,255,0.2);
+border-radius:30px;
+}
+</style>
+
 </head>
+
 <body class="text-white">
 
-<section class="min-h-screen flex flex-col justify-center items-center text-center grid-bg px-6">
-<h1 class="text-5xl md:text-7xl font-extrabold tracking-tight">
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+
+<h1 class="text-6xl md:text-7xl font-extrabold">
 KUNAAL <span class="text-lime-400">DHANKA</span>
 </h1>
-<p class="mt-6 text-lg text-gray-300 max-w-2xl">
-Graphic Designer specializing in Brand Identity, Digital Experiences, Packaging & Print Media.
+
+<p class="mt-6 text-gray-400 max-w-xl">
+Graphic Designer specializing in Branding, Advertising,
+Packaging and Social Media Design.
 </p>
-<a href="#projects" class="mt-10 px-8 py-3 bg-lime-400 text-black font-semibold rounded-full hover:scale-105 transition">
+
+<a href="#projects" class="mt-10 px-8 py-3 bg-lime-400 text-black font-semibold rounded-full">
 View My Work
 </a>
+
 </section>
 
-<section id="projects" class="py-20 px-6 md:px-20">
 
-<div class="mb-24">
-<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">Brand Identity</h2>
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-<img src="./images/Branding01.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/Branding02 (1).png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/branding03.png" class="rounded-2xl hover:scale-105 transition duration-300">
-</div>
-</div>
+<!-- ABOUT -->
 
-<div class="mb-24">
-<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">Digital Experiences</h2>
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-<img src="./images/SMP1.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/SMP2.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/SMP3.png" class="rounded-2xl hover:scale-105 transition duration-300">
-</div>
-</div>
+<section class="py-24 px-8 md:px-20 text-center">
+<h2 class="text-4xl font-bold mb-8">About Me</h2>
+<p class="text-gray-400 max-w-3xl mx-auto leading-relaxed">
+Creative graphic designer passionate about building strong visual identities,
+advertising campaigns and modern digital experiences.
+I specialize in branding, packaging design, advertising visuals and social media creatives.
+</p>
+</section>
 
-<div class="mb-24">
-<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">Packaging Design</h2>
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-<img src="./images/PD1.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/PD2.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/PD3.png" class="rounded-2xl hover:scale-105 transition duration-300">
-</div>
-</div>
 
-<div>
-<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">Print Media</h2>
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-<img src="./images/PM1.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/PM2.png" class="rounded-2xl hover:scale-105 transition duration-300">
-<img src="./images/PM3.png" class="rounded-2xl hover:scale-105 transition duration-300">
-</div>
+<!-- SKILLS -->
+
+<section class="pb-24 px-8 md:px-20 text-center">
+
+<h2 class="text-4xl font-bold mb-12">Skills & Tools</h2>
+
+<div class="flex flex-wrap justify-center gap-6 text-gray-300">
+
+<div class="skill">Adobe Photoshop</div>
+<div class="skill">Adobe Illustrator</div>
+<div class="skill">Figma</div>
+<div class="skill">Premiere Pro</div>
+<div class="skill">Brand Identity</div>
+<div class="skill">Packaging Design</div>
+<div class="skill">Social Media Design</div>
+<div class="skill">Advertising Design</div>
+
 </div>
 
 </section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="px-8 md:px-20 pb-32">
+
+<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">
+Brand Identity
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+
+<div class="project-card">
+<img src="images/branding2.png">
+</div>
+
+<div class="project-card">
+<img src="images/branding3.png">
+</div>
+
+<div class="project-card">
+<img src="images/digital1.png">
+</div>
+
+</div>
+
+
+<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">
+Digital Advertising
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+
+<div class="project-card">
+<img src="images/digital1.png">
+</div>
+
+<div class="project-card">
+<img src="images/digital2.png">
+</div>
+
+<div class="project-card">
+<img src="images/digital3.png">
+</div>
+
+</div>
+
+
+<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">
+Packaging Design
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
+
+<div class="project-card">
+<img src="images/packaging1.png">
+</div>
+
+<div class="project-card">
+<img src="images/packaging2.png">
+</div>
+
+<div class="project-card">
+<img src="images/packaging3.png">
+</div>
+
+</div>
+
+
+<h2 class="text-4xl font-bold mb-10 border-l-4 border-lime-400 pl-4">
+Print Media
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<div class="project-card">
+<img src="images/print1.png">
+</div>
+
+<div class="project-card">
+<img src="images/print2.png">
+</div>
+
+<div class="project-card">
+<img src="images/print3.png">
+</div>
+
+</div>
+
+</section>
+
 
 <section class="py-20 text-center bg-black">
+
 <h2 class="text-3xl font-bold">Let's Work Together</h2>
-<p class="text-gray-400 mt-4">Available for freelance & collaborations.</p>
-<a href="https://www.linkedin.com/in/kunaal-nirwan-006961329/" class="inline-block mt-8 px-8 py-3 bg-lime-400 text-black font-semibold rounded-full hover:scale-105 transition">
+
+<p class="text-gray-400 mt-4">
+Available for freelance & internships.
+</p>
+
+<a href="https://www.linkedin.com/in/kunaal-nirwan-006961329/"
+class="inline-block mt-8 px-8 py-3 bg-lime-400 text-black font-semibold rounded-full">
+
 Contact Me
+
 </a>
+
 </section>
 
+
 <footer class="text-center py-6 text-gray-500 text-sm">
-© 2026 Kunaal Dhanka. All Rights Reserved.
+© 2026 Kabir. All Rights Reserved.
 </footer>
 
 </body>
